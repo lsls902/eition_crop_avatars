@@ -19,11 +19,11 @@ CSS
 HTML
 
 <pre>
-  <div id="eition"></div>
-  <input type="file" name="file" id="imgFile" onchange="_eition.openFile(this)"/>
-  <input type="button" value="保存" name="save" id="save" onclick="save()">
-  <hr>
-  <img id="thumb">
+  &lt; div id="eition"&gt;&lt;/div&gt;
+  &lt; input type="file" name="file" id="imgFile" onchange="_eition.openFile(this)" /&gt;
+  &lt; input type="button" value="保存" name="save" id="save" onclick="save()" /&gt;
+
+  &lt;img id="thumb"&gt;
 </pre>
 
 Javascript
