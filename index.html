@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="eition.avatars.1.1.mini.js"></script>
+    <style>
+        .eitionCss{background:#f9f9f9;position: relative;background-repeat: no-repeat;background-size: 100%;background-position-x: 50%;background-position-y: 0;}
+        .drag{background:#ffffff;border:1px solid #000;opacity: 0.4;position: absolute}
+    </style>
+    <title>eition 头像截图js工具</title>
+</head>
+<body>
+    <div id="eition"></div>
+    <input type="file" name="file" id="imgFile" onchange="_eition.openFile(this)"/>
+    <input type="button" value="保存" name="save" id="save" onclick="save()">
+    <hr>
+    <img id="thumb">
+    <script>
+        _eition.el="eition";
+        _eition.width=400;//操作面的宽度
+        _eition.height=400;//操作面的高度
+        _eition._width=100;//截图框的宽度
+        _eition._height=100;//截图框的高度
+        _eition.thumbEl="thumb";//是否显示缩略图。样式自己写吧
+        _eition.start();
+        function save(){
+
+            alert(_eition.result());
+        }
+    </script>
+</body>
+</html>
