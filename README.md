@@ -8,11 +8,13 @@
 
 具体用法在index.html中就可查看
 
-<style>
-.eitionCss{background:#f9f9f9;position: relative;background-repeat: no-repeat;background-size: 100%;background-position-x: 50%;background-position-y: 0;}
-.drag{background:#ffffff;border:1px solid #000;opacity: 0.4;position: absolute}
-</style>
-
+CSS
+<pre>
+  <style>
+  .eitionCss{background:#f9f9f9;position: relative;background-repeat: no-repeat;background-size: 100%;background-position-x: 50%;background-position-y: 0;}
+  .drag{background:#ffffff;border:1px solid #000;opacity: 0.4;position: absolute}
+  </style>
+</pre>
 <script src="eition.avatars.1.1.mini.js"></script>
 <code>
   <script>
