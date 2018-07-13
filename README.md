@@ -15,8 +15,20 @@ CSS
   .drag{background:#ffffff;border:1px solid #000;opacity: 0.4;position: absolute}
   </style>
 </pre>
+
+HTML
+
+<pre>
+  <div id="eition"></div>
+  <input type="file" name="file" id="imgFile" onchange="_eition.openFile(this)"/>
+  <input type="button" value="保存" name="save" id="save" onclick="save()">
+  <hr>
+  <img id="thumb">
+</pre>
+
+Javascript
+<pre>
 <script src="eition.avatars.1.1.mini.js"></script>
-<code>
   <script>
         _eition.el="eition";
         _eition.width=400;//操作面的宽度
@@ -29,4 +41,4 @@ CSS
             alert(_eition.result());
         }
     </script>
-</code>
+</pre>
