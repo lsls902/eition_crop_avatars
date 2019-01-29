@@ -1,4 +1,4 @@
-# eition_avatars 头像图片截取小工具 http://crop.eition.com/
+# eition_avatars 头像图片截取小工具
 
 ### 孔子云：“代码写太多，难免bug多”。 所以本代码很少，功能很简单，mini只有3.38kb。小站可用。
 
